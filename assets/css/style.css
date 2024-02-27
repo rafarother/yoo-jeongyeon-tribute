@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ffd6d6;
+}
+
+@font-face {
+  font-family: Dark Larch PERSONAL USE ONLY;
+  src: local(Dark Larch PERSONAL USE ONLY), url(C:\Windows\Fonts\DarkLarch_PERSONAL_USE.ttf);
+}
+
+header{
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  background-color: #c434cf;
+}
+
+.bannertop{
+  padding-left: 60px;
+  width: 990px;
+  display: flex;
+  justify-content: center;
+  line-height: 80px;
+  background-color: #c434cf;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: Dark Larch PERSONAL USE ONLY;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 990px;
+  background-color: #ff5ecf;
+  margin-top: 50px;
+}
+
+.imagem{
+  border: 2px solid #636363;
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.imagem img{
+  border: 0;
+  height: 300px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.biografia h1, .Curiosidades h1{
+  font-family: Dark Larch PERSONAL USE ONLY;
+  border-bottom: 3px solid #fff4e0;
+}
+
+.biografia{
+  margin-left: 20px;
+  align-self: flex-start;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff4e0;
+  margin-top: 10px;
+  background-color: #f8b096;
+  border-radius: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.Curiosidades{
+  width: 70%;
+  margin-right: 20px;
+  align-self: flex-end;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff4e0;
+  margin-top: 10px;
+  background-color: #f8b096;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #c434cf;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
